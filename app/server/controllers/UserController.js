@@ -59,9 +59,9 @@ function canRegister(email, password, callback){
           return callback(null, true);
         }
       }
-      return callback({
+      /* return callback({
         message: "Not a valid educational email."
-      }, false);
+      }, false); */
     });
 
   });
